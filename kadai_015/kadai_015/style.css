@@ -1,0 +1,49 @@
+/* フォント設定 */
+html{
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+body {
+  font-family: "Arial", "Meiryo", "sans-serif";
+  text-align: center; 
+}
+
+/* カラー指定 */
+.blue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255,192,203);
+}
+
+/* 見出し設定 */
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem; /* ルート要素の2倍(20px×2) */
+  font-family: sans-serif;
+  letter-spacing: 1.2em; /* 文字間1.2倍 */
+  text-shadow: 2px 2px 4px gray;
+  border-bottom: 3px solid rgb(115, 115, 114);
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+/* id="basic" の中に子孫要素を太文字に */
+#basic p,
+#basic h2 + P {
+  font-weight: bold;
+}
+
+/* h2 見出しの指定 */
+h2 .ping {
+  color: rgb(225, 192, 203);
+}
+
+h2 .blue {
+  color: skyblue;
+}

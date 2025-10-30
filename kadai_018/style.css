@@ -45,17 +45,12 @@ left: 300px;
   width: 400px;
   height: 100px;
   background-color: #e5dcf0;
-  position: absolute;
-}
-#bottom-child01 {
-  left: 0;
-  top: 0;
 }
 #bottom-child02 {
+  position: relative;
   left: 200px;
-  top: 100px;
 }
 #bottom-child03 {
+  position: relative;
   left: 400px;
-  top: 200px;
 }
